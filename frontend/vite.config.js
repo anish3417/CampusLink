@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: './',
   build: {
-    outDir: '../public',     // Overwrites your static HTML!
-    emptyOutDir: true       // Deletes old about.html, login.html etc.
+    outDir: 'dist',
+    emptyOutDir: true
   }
 })
